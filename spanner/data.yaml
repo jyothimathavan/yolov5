@@ -1,0 +1,13 @@
+train: /home/jyothimathavan/yolov5/spanner/train/images
+val: /home/jyothimathavan/yolov5/spanner/valid/images
+test: /home/jyothimathavan/yolov5/spanner/test/images
+
+nc: 2
+names: ['openspanner', 'ringspanner']
+
+roboflow:
+  workspace: toolbox-tools-classification
+  project: detecting-two-tools
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/toolbox-tools-classification/detecting-two-tools/dataset/1
